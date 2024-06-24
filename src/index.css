@@ -6,6 +6,37 @@
   display: none;
 }
 
+@font-face {
+  font-family: Gilroy;
+  font-weight: 950;
+  src: url(/public/font/Gilroy-Black.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 900;
+  src: url(/public/font/Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 600;
+  src: url(/public/font/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 400;
+  src: url(/public/font/Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 200;
+  src: url(/public/font/Gilroy-Thin.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 100;
+  src: url(/public/font/Gilroy-UltraLight.ttf);
+}
+
 *{
   font-family: Gilroy;
 }
