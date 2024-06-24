@@ -17,13 +17,13 @@ const Home = () => {
       <div className="h-52 w-52 rounded-full blur-[140px] absolute right-0 bottom-0 bg-yellow-900"></div>
       <div className="h-[92vh] overflow-hidden w-full relative">
         <h1 className="animeHeading font-bold flex tracking-[5vw] text-[20vw] absolute top-1/2 left-[52%] -translate-x-2/4 -translate-y-2/4">
-          <span className="inline-block font-[Kajiro]">R</span>
-          <span className="inline-block font-[Kajiro]">E</span>
-          <span className="inline-block font-[Kajiro]">D</span>
-          <span className="inline-block font-[Kajiro]">B</span>
-          <span className="inline-block font-[Kajiro]">U</span>
-          <span className="inline-block font-[Kajiro]">L</span>
-          <span className="inline-block font-[Kajiro]">L</span>
+          <span className="inline-block font-[Kajiro] kajiro">R</span>
+          <span className="inline-block font-[Kajiro] kajiro">E</span>
+          <span className="inline-block font-[Kajiro] kajiro">D</span>
+          <span className="inline-block font-[Kajiro] kajiro">B</span>
+          <span className="inline-block font-[Kajiro] kajiro">U</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
         </h1>
         <div class="wrap">
           <div class="red-wrap">

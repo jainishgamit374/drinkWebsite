@@ -45,6 +45,11 @@
 *{
   font-family: Gilroy;
 }
+
+.kajiro{
+  font-family: Kajiro !important;
+}
+
 @keyframes anime {
   from{
     transform: translateX(0);
