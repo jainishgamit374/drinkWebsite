@@ -36,6 +36,11 @@
   font-weight: 100;
   src: url(./assets/font/Gilroy-UltraLight.ttf);
 }
+@font-face {
+  font-family: Kajiro;
+  font-weight: 100;
+  src: url(./assets/font/Kajiro.ttf);
+}
 
 *{
   font-family: Gilroy;
