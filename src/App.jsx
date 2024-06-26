@@ -3,18 +3,17 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Marque from "./Components/Marque";
 import LocomotiveScroll from "locomotive-scroll";
-import Canvas from "./Components/Canvas";
 import Footer from "./Components/Footer";
-
+import Athletes from "./Components/Athletes";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div>
+    <div className="h-full w-full overflow-hidden">
       <Navbar />
       <Home />
       <Marque />
-      <Canvas />
+      <Athletes />
       <Footer/>
     </div>
   );
