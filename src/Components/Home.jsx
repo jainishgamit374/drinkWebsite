@@ -25,28 +25,28 @@ const Home = () => {
           <span className="inline-block font-[Kajiro] kajiro">L</span>
           <span className="inline-block font-[Kajiro] kajiro">L</span>
         </h1>
-        <div class="wrap">
-          <div class="red-wrap">
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
-            <div class="side"></div>
+        <div className="wrap">
+          <div className="red-wrap">
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
+            <div className="side"></div>
           </div>
         </div>
         {/* <img
