@@ -64,7 +64,10 @@
   animation-iteration-count: infinite;
   animation-duration: 25s;
 }
-
+@font-face {
+  font-family: Monument;
+  src: url('./assets/font/MonumentExtended-Regular.otf');
+}
 .monument{
   font-family: Monument !important;
 }
