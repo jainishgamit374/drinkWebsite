@@ -6,6 +6,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import Footer from "./Components/Footer";
 import Athletes from "./Components/Athletes";
 import Discover from "./Components/Discover";
+import Partners from "./Components/Partners";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -15,6 +16,7 @@ const App = () => {
       <Home/>
       <Marque/>
       <Discover/>
+      <Partners/>
       <Footer/>
     </div>
   );
