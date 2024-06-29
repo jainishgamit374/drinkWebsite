@@ -5,15 +5,16 @@ import Marque from "./Components/Marque";
 import LocomotiveScroll from "locomotive-scroll";
 import Footer from "./Components/Footer";
 import Athletes from "./Components/Athletes";
+import Discover from "./Components/Discover";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="h-full w-full overflow-hidden">
-      <Navbar />
-      <Home />
-      <Marque />
-      <Athletes />
+      <Navbar/>
+      <Home/>
+      <Marque/>
+      <Discover/>
       <Footer/>
     </div>
   );
