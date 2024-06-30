@@ -7,6 +7,8 @@ import Footer from "./Components/Footer";
 import Athletes from "./Components/Athletes";
 import Discover from "./Components/Discover";
 import Partners from "./Components/Partners";
+import Ingredients from "./Components/Ingredients";
+import Events from "./Components/Events";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -16,6 +18,9 @@ const App = () => {
       <Home/>
       <Marque/>
       <Discover/>
+      <Ingredients/>
+      <Athletes/>
+      <Events/>
       <Partners/>
       <Footer/>
     </div>

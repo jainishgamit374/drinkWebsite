@@ -1,130 +1,34 @@
-import React from "react";
+import React from 'react'
 
 const Athletes = () => {
   return (
-    <div className="min-h-screen w-full p-10">
-      <h1 className="text-7xl tracking-tighter font-black">Athletes</h1>
-      <div className="flex gap-8">
-        <div className="h-48 flex flex-shrink-0 my-10 rounded-xl overflow-hidden w-[30vw] bg-zinc-200">
-          <img
-            className="h-64 object-contain"
-            src="https://img.redbull.com/images/c_fill,g_auto,w_400,h_660/q_auto:low,f_auto/redbullcom/2024/4/22/vkpzun18ijrdwf0oudec/jonathan-gaming"
-            alt=""
-          />
-          <div className="h-full w-full">
-            <h1 className="text-6xl font-black px-10 pt-10 uppercase  kajiro">
-              Jonathan Amaral <br />
-            </h1>
-            <div className="flex gap-4">
-              <h1 className="tracking-tighter pl-10 flex items-center gap-2 font-medium text-lg">
-                <img
-                  className="h-4 object-contain"
-                  src="https://resources.redbull.com/icons/flags/v2/IN@2x.png"
-                  alt=""
-                />
-                India
-              </h1>
-              <h1 className="tracking-tighter font-medium text-lg">Gaming</h1>
-            </div>
-          </div>
+    <div className='min-h-screen w-full relative'>
+      <h1 className='monument text-center pt-20 text-7xl '>Athletes</h1>
+      <p className='text-center text-sm pb-20 monument'>A Supportive Team</p>
+      <div className='w-full relative'>
+        <div className='h-36 flex justify-between items-center px-16 w-full border-black border-y-[1px]'>
+          <h1 className='monument text-3xl '>Jonathan Amaral</h1>
+          <p className='monument text-sm'>I just wants to take that trophy.</p>
         </div>
-        <div className="h-48 flex flex-shrink-0 my-10 rounded-xl overflow-hidden w-[30vw] bg-zinc-200">
-          <img
-            className="h-64 object-contain"
-            src="https://img.redbull.com/images/c_fill,g_auto,w_400,h_660/q_auto:low,f_auto/redbullcom/2024/4/22/vkpzun18ijrdwf0oudec/jonathan-gaming"
-            alt=""
-          />
-          <div className="h-full w-full">
-            <h1 className="text-6xl font-black px-10 pt-10 uppercase  kajiro">
-              Jonathan Amaral <br />
-            </h1>
-            <div className="flex gap-4">
-              <h1 className="tracking-tighter pl-10 flex items-center gap-2 font-medium text-lg">
-                <img
-                  className="h-4 object-contain"
-                  src="https://resources.redbull.com/icons/flags/v2/IN@2x.png"
-                  alt=""
-                />
-                India
-              </h1>
-              <h1 className="tracking-tighter font-medium text-lg">Gaming</h1>
-            </div>
-          </div>
+        <div className='h-36 flex justify-between items-center px-16 w-full border-black border-y-[1px]'>
+        <h1 className='monument text-3xl '>Ujjwal Chaurasiya</h1>
+        <p className='monument text-sm'>From childhood, I had a love for gaming</p>
         </div>
-        <div className="h-48 flex flex-shrink-0 my-10 rounded-xl overflow-hidden w-[30vw] bg-zinc-200">
-          <img
-            className="h-64 object-contain"
-            src="https://img.redbull.com/images/c_fill,g_auto,w_400,h_660/q_auto:low,f_auto/redbullcom/2024/4/22/vkpzun18ijrdwf0oudec/jonathan-gaming"
-            alt=""
-          />
-          <div className="h-full w-full">
-            <h1 className="text-6xl font-black px-10 pt-10 uppercase  kajiro">
-              Jonathan Amaral <br />
-            </h1>
-            <div className="flex gap-4">
-              <h1 className="tracking-tighter pl-10 flex items-center gap-2 font-medium text-lg">
-                <img
-                  className="h-4 object-contain"
-                  src="https://resources.redbull.com/icons/flags/v2/IN@2x.png"
-                  alt=""
-                />
-                India
-              </h1>
-              <h1 className="tracking-tighter font-medium text-lg">Gaming</h1>
-            </div>
-          </div>
+        <div className='h-36 flex justify-between items-center px-16 w-full border-black border-y-[1px]'>
+        <h1 className='monument text-3xl '>KL Rahul</h1>
+        <p className='monument text-sm'>During a match I Have a Red Bull shortly <br /> before going out to bat or field.  </p>
         </div>
-      </div>
-      <div className="flex justify-center items-center gap-8">
-        <div className="h-48 flex flex-shrink-0 rounded-xl overflow-hidden w-[30vw] bg-zinc-200">
-          <img
-            className="h-64 object-contain"
-            src="https://img.redbull.com/images/c_fill,g_auto,w_400,h_660/q_auto:low,f_auto/redbullcom/2024/4/22/vkpzun18ijrdwf0oudec/jonathan-gaming"
-            alt=""
-          />
-          <div className="h-full w-full">
-            <h1 className="text-6xl font-black px-10 pt-10 uppercase  kajiro">
-              Jonathan Amaral <br />
-            </h1>
-            <div className="flex gap-4">
-              <h1 className="tracking-tighter pl-10 flex items-center gap-2 font-medium text-lg">
-                <img
-                  className="h-4 object-contain"
-                  src="https://resources.redbull.com/icons/flags/v2/IN@2x.png"
-                  alt=""
-                />
-                India
-              </h1>
-              <h1 className="tracking-tighter font-medium text-lg">Gaming</h1>
-            </div>
-          </div>
+        <div className='h-36 flex justify-between items-center px-16 w-full border-black border-y-[1px]'>
+        <h1 className='monument text-3xl '>Tania Sachdev</h1>
+        <p className='monument text-sm'>During a match I Have a Red Bull Energy Drink <br /> when I'm training or having a match</p>
         </div>
-        <div className="h-48 flex flex-shrink-0 rounded-xl overflow-hidden w-[30vw] bg-zinc-200">
-          <img
-            className="h-64 object-contain"
-            src="https://img.redbull.com/images/c_fill,g_auto,w_400,h_660/q_auto:low,f_auto/redbullcom/2024/4/22/vkpzun18ijrdwf0oudec/jonathan-gaming"
-            alt=""
-          />
-          <div className="h-full w-full">
-            <h1 className="text-6xl font-black px-10 pt-10 uppercase  kajiro">
-              Jonathan Amaral <br />
-            </h1>
-            <div className="flex gap-4">
-              <h1 className="tracking-tighter pl-10 flex items-center gap-2 font-medium text-lg">
-                <img
-                  className="h-4 object-contain"
-                  src="https://resources.redbull.com/icons/flags/v2/IN@2x.png"
-                  alt=""
-                />
-                India
-              </h1>
-              <h1 className="tracking-tighter font-medium text-lg">Gaming</h1>
-            </div>
-          </div>
+        <div className='h-36 flex justify-between items-center px-16 w-full border-black border-y-[1px]'>
+        <h1 className='monument text-3xl '>Lakshya Sen</h1>
+        <p className='monument text-sm'>I ever just loved to play Badminton.</p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Athletes;
+export default Athletes

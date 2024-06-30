@@ -3,8 +3,8 @@ import { MdArrowOutward } from "react-icons/md";
 const Discover = () => {
   return (
     <div>
-        <h1 className='text-9xl tracking-tighter text-center pt-10 monument'>Discover</h1>
-        <p className='text-center text-xl monument pb-10'>The world of Red Bull</p>
+        <h1 className='text-7xl tracking-tighter text-center pt-20 monument'>Discover</h1>
+        <p className='text-center text-sm monument pb-10'>The world of Red Bull</p>
         <div className="max-w-screen-xl m-auto h-[100vh] relative py-8">
                 <div className="w-full h-full grid grid-cols-3 gap-4 p-4">
                     <div className="drop-shadow-2xl flex items-center justify-center rounded-3xl border-2 bg-[#060B27] text-white">
@@ -23,7 +23,7 @@ const Discover = () => {
                         <a className='flex items-center gap-4 cursor-pointer '>Over New Products <MdArrowOutward /></a>
                     </div>
                 </div>
-            </div>
+        </div>
     </div>
   )
 }
