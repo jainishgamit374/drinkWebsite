@@ -117,7 +117,7 @@ const Navbar = () => {
     <>
       <div ref={firstRef} className="h-screen w-full fixed bg-red-400 z-50 -top-[100%]"></div>
       <div ref={secondRef} className="h-screen w-full fixed bg-black z-50 -top-[100%]" >
-        <div className="h-full w-full flex items-center flex-col gap-6 justify-center bg-zinc-400">
+        <div className="h-full w-full flex items-center flex-col gap-6 justify-center text-white">
           <h1 className="animation text-5xl flex flex-col h-10 overflow-hidden relative">
             <span className="monument inline-block">Home</span>
             <span className="monument inline-block">Home</span>
