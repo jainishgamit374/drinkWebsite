@@ -7,7 +7,7 @@ const Marque = () => {
         return (
           <div
             key={index}
-            className="h-[30vh] flex items-center gap-6 flex-shrink-0 w-full bg-[#004D43] text-white relative -m-px"
+            className="h-[30vh] flex items-center gap-6 flex-shrink-0 w-full bg-[#2C4387] text-white relative -m-px"
           >
             <h1 className="font-[Kajiro] kajiro text-[10vw] font-semibold">
               REDBULL
