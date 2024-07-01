@@ -18,13 +18,13 @@ const Athletes = () => {
             name: "KL Rahul",
             description:
                 "During a match I Have a Red Bull shortly  before going out to bat or field.  ",
-            img: "https://img.redbull.com/images/c_crop,x_0,y_315,h_2345,w_3126/c_fill,w_300,h_230/q_auto,f_auto/redbullcom/2020/4/18/jtcqbmlpraqtihenkt6q/kl-rahul-red-bull-athlete-india-cricket-opener",
+            img: "https://th-i.thgim.com/public/incoming/pzxmk/article68066013.ece/alternates/LANDSCAPE_1200/AFP_34PC8BZ.jpg",
         },
         {
             name: "Tania Sachdev",
             description:
                 "During a match I Have a Red Bull Energy Drink  when I'm training or having a match.",
-            img: "https://img.redbull.com/images/c_crop,x_0,y_153,h_1200,w_1600/c_fill,w_300,h_230/q_auto,f_auto/redbullcom/2020/6/17/f2cue3fbxsnna2uyjfmm/tania-sachdev-indian-chess-player-red-bull-athlete",
+            img: "https://images.livemint.com/img/2020/10/07/1140x641/tania_1602066281834_1602066286961.jpg",
         },
         {
             name: "Lakshya Sen",
