@@ -11,11 +11,11 @@ const Navbar = () => {
   var navSecondRef = useRef(null);
 
   var handleNavClick = (dets) => {
-    if(isAnimating) return;
+    if (isAnimating) return;
     setIsAnimating(true);
     setNav("rotated");
     var tl = gsap.timeline({
-      onComplete: () =>{
+      onComplete: () => {
         setIsAnimating(false);
       }
     })
@@ -73,7 +73,7 @@ const Navbar = () => {
         duration: 2,
         ease: 'power4.inOut'
       });
-    }else{
+    } else {
       setNav("vertical");
       tl.to(secondRef.current, {
         top: "-100%",
@@ -142,18 +142,9 @@ const Navbar = () => {
       </div>
       <div className="h-[8vh] w-full flex items-center justify-between px-20">
         <div className="flex w-[20%] items-center gap-10">
-          <div
-            onClick={handleNavClick}
-            className="h-8 w-10 navMenu cursor-pointer z-50 block relative"
-          >
-            <span
-              ref={navFirstRef}
-              className="h-[2px] monument w-10 bg-black rounded-full inline-block absolute bottom-2 right-0"
-            ></span>
-            <span
-              ref={navSecondRef}
-              className="h-[2.5px] monument w-10 bg-black rounded-full inline-block absolute top-2 left-0"
-            ></span>
+          <div onClick={handleNavClick} className="h-8 w-10 navMenu cursor-pointer z-50 block relative">
+            <span ref={navFirstRef} className="h-[2.3px] monument w-10 bg-black rounded-full inline-block absolute bottom-2 right-0"></span>
+            <span ref={navSecondRef} className="h-[2.3px] monument w-10 bg-black rounded-full inline-block absolute top-2 left-0"></span>
           </div>
           <img
             className="h-5 object-contain"
