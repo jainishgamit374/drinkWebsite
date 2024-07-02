@@ -3,6 +3,7 @@ const Event = ({data}) => {
   return (
     <div className="h-[90%] relative select-none cursor-pointer w-72 flex-shrink-0 drop-shadow-2xl rounded-2xl bg-white overflow-hidden">
       <img className="h-[70%] opacity-35 w-full relative object-cover" src={image_background} alt=""/>
+      <div className="h-[70%] w-full bg-black absolute top-0 opacity-50"></div>
       <span className="h-6 w-6 bg-white rounded-full absolute bottom-[27%] -left-[3%]"></span>
       <span className="h-6 w-6 bg-white rounded-full absolute bottom-[27%] -right-[3%]"></span>
       <div className="px-5 py-2">

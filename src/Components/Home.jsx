@@ -66,7 +66,7 @@ const Home = () => {
           alt=""
         />
         <img
-          className="imgAnime absolute top-[55%] left-1/2 h-[30vw] object-contain -translate-x-2/4 -translate-y-2/4"
+          className="imgAnime absolute top-1/2 left-1/2 h-[30vw] object-contain -translate-x-2/4 -translate-y-2/4"
           src="https://pngfre.com/wp-content/uploads/Red-Bull-3.png"
           alt=""
         />

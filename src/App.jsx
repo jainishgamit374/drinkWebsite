@@ -20,11 +20,10 @@ const App = () => {
       <Discover/>
       <Ingredients/>
       <Athletes/>
-      <Events/>
+      <Events />
       <Partners/>
       <Footer/>
     </div>
   );
 };
-
 export default App;
