@@ -21,7 +21,6 @@ const Discover = () => {
                     end: "top -100%", 
                     scrub: true,
                     pin: true,
-                    markers: true,
                 },
                 ease: "power1.inOut",
             });
