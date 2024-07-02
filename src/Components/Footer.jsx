@@ -18,12 +18,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="link">
                     Red Bull
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
+                  <a href="https://tailwindcss.com/" className="link">
                     Tailwind CSS
                   </a>
                 </li>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <li className="mb-4">
                   <a
                     href="#"
-                    className="hover:underline "
+                    className="link "
                   >
                     Github
                   </a>
@@ -45,7 +45,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:underline"
+                    className="link"
                   >
                     Discord
                   </a>
@@ -58,12 +58,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="link">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="link">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="#" className="hover:underline">
+            <a href="#" className="link">
               Red Bull
             </a>
             . All Rights Reserved.
