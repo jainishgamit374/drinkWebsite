@@ -71,3 +71,54 @@
 .monument{
   font-family: Monument !important;
 }
+
+.secondtext {
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+.links{
+  position: relative;
+}
+
+.links::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #202020;
+  transition: all ease-in-out 0.5s;
+}
+
+.links:hover:before {
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  right: 0;
+  background-color: #202020;
+}
+
+.link{
+  position: relative;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #dcdcdc;
+  right: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.link:hover:before {
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color: #cbcbcb;
+}

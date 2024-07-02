@@ -29,7 +29,6 @@ const Ingredients = () => {
           </div>
         </div>
         <div className="absolute top-5 left-1/2 -translate-x-2/4">
-          <img className="h-96 rotate-6 object-contain" src="https://m.media-amazon.com/images/I/51JFRoM+7HL._AC_UF1000,1000_QL80_.jpg" alt="" />
         </div>
         <div>
           <div className="h-72 w-80">
