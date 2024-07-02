@@ -30,9 +30,9 @@ const Events = () => {
       image_upper: "https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_309/bo_5px_solid_rgb:00000000/q_auto,f_png/redbullcom/2021/5/4/n143zg0814yk2h4wgb1m/red-bull-cliff-diving-world-series",
       date: "30 June 2024",
       footer_heading: "CLIFF Diving",
-      title: "Red Bull CLIFF Diving World Series",
+      title: "Red Bull CLIFF Diving",
     },
-        {
+    {
       image_background: "https://img.redbull.com/images/c_crop,x_961,y_0,h_2560,w_2845/c_fill,w_450,h_409/q_auto,f_auto/redbullcom/2024/4/16/zdov15z4peabupkopsu6/kate-courtney-uci-mtb-world-cup-2023-les-gets",
       image_upper: "https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_309/bo_5px_solid_rgb:00000000/q_auto,f_png/redbullcom/2023/6/5/jxqzlt0ytdhmdqzckxli/uci-mtb-world-series-logo",
       date: "4 - 4 July 2024",
@@ -86,7 +86,7 @@ const Events = () => {
       image_upper: "https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_309/bo_5px_solid_rgb:00000000/q_auto,f_png/redbullcom/2024/2/19/lzbbsuqgc7e7fsxqa9cf/logo-red-bull-batalla",
       date: "6 July 2024",
       footer_heading: "MC Battle",
-      title: "Red Bull Four Batalla Columbia National Final",
+      title: "Red Bull Four Batalla Final",
     },
     {
       image_background: "https://img.redbull.com/images/c_crop,x_355,y_0,h_2134,w_2845/c_fill,w_450,h_346/q_auto,f_auto/redbullcom/2023/3/20/cug34jffsh1a4f3aoupd/okk-bike-revolution-action",
