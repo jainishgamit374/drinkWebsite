@@ -153,10 +153,10 @@ const Navbar = () => {
           />
         </div>
         <div className="flex w-[60%] justify-center items-center gap-6 text-sm font-medium">
-          <h1 className="cursor-pointer">Energy Drinks</h1>
-          <h1 className="cursor-pointer">Events</h1>
-          <h1 className="cursor-pointer">Athletes</h1>
-          <h1 className="cursor-pointer">TV</h1>
+        <h1 className="links uppercase cursor-pointer">Energy Drinks</h1>
+          <h1 className="links uppercase cursor-pointer">Events</h1>
+          <h1 className="links uppercase cursor-pointer">Athletes</h1>
+          <h1 className="links uppercase cursor-pointer">TV</h1>
         </div>
         <div className="flex w-[20%] justify-end gap-4 text-xl">
           <CiUser className="bg-zinc-300 p-2 text-4xl rounded-full text-black cursor-pointer" />
