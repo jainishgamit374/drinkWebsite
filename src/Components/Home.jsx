@@ -2,74 +2,88 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Home = () => {
-  var tl = gsap.timeline();
   useGSAP(() => {
-    gsap.set(".imgAnime:nth-child(2)", {
-      opacity: 0
-    });
-    gsap.set(".imgAnime:nth-child(3)", {
-      opacity: 0
-    });
-    gsap.from(".animeHeading span", {
+
+    var t1 = gsap.timeline();
+
+    t1.from(".animeHeading span", {
+      y: 200,
+      stagger: 0.1,
+      duration: 2,
+      ease: "power2.inOut",
+      opacity: 0,
+    }, "h");
+
+    t1.from(".secondtext span", {
+      y: 200,
+      stagger: 0.1,
+      duration: 2,
+      ease: "power2.inOut",
+      opacity: 0,
+    }, "h");
+
+
+    t1.from(".hero-images", {
       y: 200,
       stagger: 0.1,
       duration: 2,
       ease: "power2.inOut",
       opacity: 0,
     });
-    tl.from(".imgAnime", {
-      y: 200,
-      duration: 2,
-      ease: "power2.inOut",
-    });
-    tl.set(".imgAnime:nth-child(2)", {
-      opacity: 100
-    });
-    tl.set(".imgAnime:nth-child(3)", {
-      opacity: 100
-    });
-    tl.to(".imgAnime:nth-child(2)", {
-      rotate: 30,
-      duration: 2,
-      ease: "power2.inOut",
-      transformOrigin: "bottom center",
-    }, "h");
-    tl.to(".imgAnime:nth-child(3)", {
-      rotate: -30,
-      duration: 2,
-      ease: "power2.inOut",
-      transformOrigin: "bottom center",
-    }, "h");
+
+    t1.from(".hero-images .side-img1 img", {
+      left: "50%",
+      rotate: "0deg",
+      stagger: 0.1,
+      duration: 1,
+      ease: "power2.inOut"
+    }, "p");
+
+    t1.from(".hero-images .side-img2 img", {
+      left: "50%",
+      rotate: "0deg",
+      stagger: 0.1,
+      duration: 1,
+      ease: "power2.inOut"
+    }, "p");
+
+
+
+
   });
   return (
     <>
-      <div className="h-52 w-52 rounded-full blur-[140px] absolute bg-blue-900"></div>
-      <div className="h-52 w-52 rounded-full blur-[140px] absolute right-0 bottom-0 bg-yellow-900"></div>
-      <div className="h-[92vh] overflow-hidden w-full relative">
-        <h1 className="animeHeading font-bold flex tracking-[5vw] text-[20vw] absolute top-1/2 left-[52%] -translate-x-2/4 -translate-y-2/4">
-          <span className="inline-block kajiro">R</span>
-          <span className="inline-block kajiro">E</span>
-          <span className="inline-block kajiro">D</span>
-          <span className="inline-block kajiro">B</span>
-          <span className="inline-block kajiro">U</span>
-          <span className="inline-block kajiro">L</span>
-          <span className="inline-block kajiro">L</span>
+      <div className="w-full h-screen overflow-hidden relative">
+        <h1 data-content="REDBULL" className="animeHeading flex font-[Kajiro] tracking-[5vw] text-[20vw] absolute  top-1/2 left-[52%] -translate-x-2/4 -translate-y-2/4">
+          <span className="inline-block font-[Kajiro] kajiro">R</span>
+          <span className="inline-block font-[Kajiro] kajiro">E</span>
+          <span className="inline-block font-[Kajiro] kajiro">D</span>
+          <span className="inline-block font-[Kajiro] kajiro">B</span>
+          <span className="inline-block font-[Kajiro] kajiro">U</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
         </h1>
-        <img
-          className="imgAnime absolute top-1/2 left-1/2 h-[25vw] object-contain -translate-x-2/4 -translate-y-2/4"
-          src="https://www.bigbasket.com/media/uploads/p/xxl/40293773_1-red-bull-energy-drink-the-summer-edition-apricot-strawberry-flavour.jpg"
-          alt=""
-        />
-        <img
-          className="imgAnime absolute top-1/2 left-1/2 h-[25vw] object-contain -translate-x-2/4 -translate-y-2/4"
-          src="https://images.ctfassets.net/lcr8qbvxj7mh/2MWT9CIn6rG3YiEwP9O6pu/8c0e2288253b5bdad0744239b597c1ec/AU_RBRE_250_Single_Unit_close_cold_ORIGINAL_LRES__1_.png"
-          alt=""
-        />
-        <img
-          className="imgAnime absolute top-1/2 left-1/2 h-[30vw] object-contain -translate-x-2/4 -translate-y-2/4"
-          src="https://pngfre.com/wp-content/uploads/Red-Bull-3.png"
-          alt=""
-        />
+        <h1 data-content="REDBULL" className="secondtext flex font-[Kajiro] tracking-[5vw] text-transparent text-[20vw] absolute z-[5]  top-1/2 left-[52%] -translate-x-2/4 -translate-y-2/4">
+          <span className="inline-block font-[Kajiro] kajiro">R</span>
+          <span className="inline-block font-[Kajiro] kajiro">E</span>
+          <span className="inline-block font-[Kajiro] kajiro">D</span>
+          <span className="inline-block font-[Kajiro] kajiro">B</span>
+          <span className="inline-block font-[Kajiro] kajiro">U</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
+          <span className="inline-block font-[Kajiro] kajiro">L</span>
+        </h1>
+
+        <div className="hero-images w-full h-full absolute z-[1]">
+          <div className="side-img1">
+            <img className="w-[12vw] z-[8] absolute left-[40.5%] top-16 -rotate-[18deg] -translate-x-1/2" src="https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/2eA9T4loMyY8xusITbIbM5/23c70a0e9f7528efef52cd8e4180c703/DRES_US_SEABLUE-Juneberry-250ml_ambient_front_redbullcom.png?h=453&fm=webp&q=90" alt="" />
+          </div>
+          <div className="img-1-hero">
+            <img className="w-[40vw] z-[9] absolute left-1/2 top-5 -translate-x-1/2" src="https://pngimg.com/uploads/red_bull/red_bull_PNG27.png" alt="" />
+          </div>
+          <div className="side-img2">
+            <img className="w-[12vw] z-[8] absolute left-[59%] top-16 rotate-[18deg] -translate-x-1/2" src="https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/K1jlYK6k5ctAmxuxD6B26/1a6be2ef25790e920a4c0ca6fa1693d6/DRES_US_SUMMER-AMBER-SF-250ml_ambient_front_redbullcom.png?h=906&fm=webp&q=90" alt="" />
+          </div>
+        </div>
       </div>
     </>
   );
