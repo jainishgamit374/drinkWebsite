@@ -58,7 +58,7 @@ const Home = () => {
         trigger: scrollRef.current,
         start: "top 20%",
         end: "bottom -50%",
-        markers:true,
+        // markers:true,
         scrub: true,
       },
     });
