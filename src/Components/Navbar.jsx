@@ -162,8 +162,8 @@ const Navbar = () => {
         </div>
       </div>
       <div onClick={handleNavClick} className="navMenu h-8 w-10 flex items-center justify-center  cursor-pointer fixed z-50 left-[85%] md:left-[90%] top-4">
-        <h1 ref={navFirstRef} className="h-[2.1px] w-10 monument bg-black rounded-full inline-block absolute bottom-2 right-0"></h1>
-        <h1 ref={navSecondRef} className="h-[2.1px] w-10 monument bg-black rounded-full inline-block absolute top-2 left-0"></h1>
+        <h1 ref={navFirstRef} className="h-[2px] md:h-[2.1px] w-10 monument bg-black rounded-full inline-block absolute bottom-2 right-0"></h1>
+        <h1 ref={navSecondRef} className="h-[2px] md:h-[2.1px] w-10 monument bg-black rounded-full inline-block absolute top-2 left-0"></h1>
       </div>
     </>
   );
